@@ -1,20 +1,30 @@
-let quote = `Salaam`
+/* let quote = `Salaam`
 console.log(quote);
 
-interface transactionObject{
-    [key:string]:string|number|boolean
+interface transactionObject {
+    [key: string]: string | number | boolean
 }
 
-interface newTransactionObject extends transactionObject{
-    name:string,
-    batch:number
+interface newTransactionObject extends transactionObject {
+    name: string,
+    batch: number
 }
 
-const obj:newTransactionObject={
-    name:'MOHAMMAD ASIF NAWAZ',
-    batch:2026
+const obj: newTransactionObject = {
+    name: 'MOHAMMAD ASIF NAWAZ',
+    batch: 2026
 }
 
-for(let transaction in obj){
+for (let transaction in obj) {
     console.log(obj[transaction]);
 }
+console.log(obj['new']);
+*/
+
+
+// Classes in Typescript
+
+/* Todo List Using Typescript */
+
+
+

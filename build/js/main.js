@@ -8,3 +8,4 @@ const obj = {
 for (let transaction in obj) {
     console.log(obj[transaction]);
 }
+console.log(obj['new']);
